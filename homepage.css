@@ -1,0 +1,28 @@
+.hero {
+    background-image: url("/herobg.jpg");
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.hero-content h2 {
+    color: #ebebeb;
+    font-size: 48px;
+    font-weight: 500;
+    max-width: 500px;
+    margin-bottom: 32px;
+}
+
+.hero-content a {
+    background-color: #fff;
+    color: #02121c;
+    padding: 16px 32px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    width: fit-content;
+}
