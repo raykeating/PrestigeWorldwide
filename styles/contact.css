@@ -70,7 +70,7 @@
 }
 
 .message-form button {
-    width: 150px;
+    width: fit-content;
     margin: 8px auto 16px auto;
     padding: 12px;
     border: 1px solid #02121c;

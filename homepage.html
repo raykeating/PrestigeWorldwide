@@ -4,16 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/85b9814f97.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/85b9814f97.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/styles/all.css" />
     <link rel="stylesheet" href="/styles/homepage.css" />
+    <link rel="stylesheet" href="/styles/shop.css" />
+    <script src="./scripts/render-products-preview.js" type="module"></script>
     <title>Prestige Worldwide | Home</title>
   </head>
   <body>
     <div class="navbar">
       <img src="/images/logo.svg" alt="Presige Worldwide Logo" />
       <div class="nav-links">
-        <a href="/homepage.html">Home</a>
+        <a href="/homepage.html" class="selected">Home</a>
         <a href="/shop.html">Shop</a>
         <a href="/contact.html">Contact</a>
       </div>
@@ -21,8 +26,29 @@
     <div class="hero">
       <div class="hero-content">
         <h2>The Finest Watches in the World</h2>
-        <a href="/shop.html" class="button">Browse our Collection</a>
+        <a href="/shop.html" class="button inverted">Browse our Collection</a>
       </div>
+    </div>
+    <div class="container centered">
+      <p style="font-size: 24px; margin: 32px 0;">Our Collection</p>
+      <div class="product-cards-grid">
+        <div class="product-card">
+          <img src="" alt="" class="product-card-image" />
+          <div class="product-info">
+            <div>
+              <h2 class="product-card-brand"></h2>
+              <p class="product-card-model"></p>
+            </div>
+            <div>
+              <a href="/product.html" class="bold">View</a>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="button" style="margin-top: 32px;" href="/shop.html">See all</a>
+      <p style="margin-top: 64px; margin-bottom: 8px; font-size: 20px;">Can't find what you're looking for?</p>
+      <a class="button" style="margin-bottom: 64px;" href="/contact.html">Contact us</a>
     </div>
   </body>
 </html>

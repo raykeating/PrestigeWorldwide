@@ -35,6 +35,8 @@ p, a, li, span, input, textarea, select, button {
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
   display: flex;
   gap: 16px;
   justify-content: space-between;
@@ -42,6 +44,55 @@ p, a, li, span, input, textarea, select, button {
   padding: 24px 48px 24px 32px;
   background-color: #02121c;
   color: #EBEBEB;
+}
+
+.navbar .selected {
+  font-weight: 700;
+  border-bottom: 1px solid #EBEBEB;
+  padding-bottom: 2px;
+}
+
+.button {
+  margin: 8px auto 16px auto;
+  padding: 12px;
+  border: 1px solid #02121c;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #02121c;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: #02121c;
+}
+
+.button i {
+  margin-left: 2px;
+}
+
+.button.inverted {
+  background-color: white;
+  color: #02121c;
+}
+
+.button.inverted:hover {
+  background-color: #02121c;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* CSS Reset */
