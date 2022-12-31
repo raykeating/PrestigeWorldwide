@@ -37,7 +37,7 @@
         </div>
       </div>
       <h2>Send Us a Message</h2>
-      <form class="message-form">
+      <form class="message-form" action="https://formsubmit.co/raykeating13@gmail.com" method="POST">
         <label for="name">Your Name</label>
         <input type="text" name="name" id="name" placeholder="John Doe">
         <label for="email">Your Email</label>
@@ -45,6 +45,8 @@
         <label for="message">Your Message</label>
         <textarea name="message" id="message" rows="8" placeholder="Enter your message"></textarea>
         <button type="submit">Send <i class="fa-solid fa-paper-plane"></i></button>
+        <!-- AUTORESPONSDER - https://formsubmit.co/documentation -->
+        <input type="hidden" name="_autoresponse" value="Thanks for your message.  We'll get back to you as soon as possible.">
       </form>
     </div>
   </body>
