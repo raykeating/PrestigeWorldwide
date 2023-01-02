@@ -40,6 +40,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     margin: 0 auto;
+    margin-bottom: 32px;
     justify-items: center;
     align-items: center;
 }
