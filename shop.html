@@ -8,19 +8,19 @@
       src="https://kit.fontawesome.com/85b9814f97.js"
       crossorigin="anonymous"
     ></script>
-    <script type="module" src="/scripts/render-products.js"></script>
-    <link rel="stylesheet" href="/styles/all.css" />
-    <link rel="stylesheet" href="/styles/shop.css" />
+    <script type="module" src="/PrestigeWorldwide/scripts/render-products.js"></script>
+    <link rel="stylesheet" href="/PrestigeWorldwide/styles/all.css" />
+    <link rel="stylesheet" href="/PrestigeWorldwide/styles/shop.css" />
     <title>Prestige Worldwide | Shop</title>
   </head>
   <body>
     <!-- Navbar -->
     <div class="navbar">
-      <img id="myImg" src="/images/logo.svg" alt="Presige Worldwide Logo" />
+      <img id="myImg" src="/PrestigeWorldwide/images/logo.svg" alt="Presige Worldwide Logo" />
       <div class="nav-links">
-        <a href="/homepage.html">Home</a>
-        <a href="/shop.html" class="selected">Shop</a>
-        <a href="/contact.html">Contact</a>
+        <a href="/PrestigeWorldwide/homepage.html">Home</a>
+        <a href="/PrestigeWorldwide/shop.html" class="selected">Shop</a>
+        <a href="/PrestigeWorldwide/contact.html">Contact</a>
       </div>
     </div>
 
@@ -30,15 +30,37 @@
       <!-- Product Cards Grid -->
       <div class="product-cards-grid">
         <div class="product-card">
-          <img src="" alt="" class="product-card-image"/>
+          <img src="" alt="" class="product-card-image" />
           <div class="product-info">
             <div>
               <h2 class="product-card-brand"></h2>
               <p class="product-card-model"></p>
             </div>
             <div>
-              <a href="/product.html" class="bold">View</a>
-              <i class="fa-solid fa-angle-right"></i>
+              <button class="bold">View <i class="fa-solid fa-angle-right"></i></button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Overlay Template -->
+      <div class="overlay hidden">
+        <div class="single-product">
+          <i class="fa-solid fa-x close-product"></i>
+          <div class="product-image-container">
+            <img src="" alt="" class="product-image" />
+          </div>
+          <div class="overlay-product-info">
+            <div class="product-main-info">
+              <div class="product-name">
+                <h2 class="product-brand"></h2>
+                <p class="product-model"></p>
+                <p class="product-price"></p>
+              </div>
+              <div>
+                <button class="button">Buy</button>
+              </div>
             </div>
           </div>
         </div>
