@@ -1,5 +1,5 @@
 // fetch the watch data from our server
-const response = await fetch("/PrestigeWorldwide/watches.json");
+const response = await fetch("/watches.json");
 const watches = await response.json();
 
 // get the product-cards-grid element
