@@ -1,5 +1,5 @@
 // fetch the watch data from our server
-const response = await fetch("/watches.json");
+const response = await fetch("/PrestigeWorldwide/watches.json");
 let watches = await response.json();
 watches = watches.slice(0, 3);
 

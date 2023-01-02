@@ -3,72 +3,72 @@
         "brand": "Hamilton",
         "model": "Khaki Field Mechanical",
         "price": 800,
-        "image": "/images/watches/hamilton.png"
+        "image": "/PrestigeWorldwide/images/watches/hamilton.png"
     },
     {
         "brand": "Richard Mille",
         "model": "RM50-03",
         "price": 10000,
-        "image": "/images/watches/richardmille.png"
+        "image": "/PrestigeWorldwide/images/watches/richardmille.png"
     },
     {
         "brand": "Patek Phillipe",
         "model": "Nautilus",
         "price": 500,
-        "image": "/images/watches/patek.png"
+        "image": "/PrestigeWorldwide/images/watches/patek.png"
     },
     {
         "brand": "Tudor",
         "model": "Black Bay",
         "price": 500,
-        "image": "/images/watches/tudor.png"
+        "image": "/PrestigeWorldwide/images/watches/tudor.png"
     },
     {
         "brand": "Citizen",
         "model": "Promaster Diver",
         "price": 4500,
-        "image": "/images/watches/citizen.png"
+        "image": "/PrestigeWorldwide/images/watches/citizen.png"
     },
     {
         "brand": "IWC",
         "model": "Pilot's Watch Chronograph",
         "price": 2390,
-        "image": "/images/watches/iwc.png"
+        "image": "/PrestigeWorldwide/images/watches/iwc.png"
     },
     {
         "brand": "Seiko",
         "model": "Prospex 'Turtle'",
         "price": 1890,
-        "image": "/images/watches/seiko.png"
+        "image": "/PrestigeWorldwide/images/watches/seiko.png"
     },
     {
         "brand": "Zenith",
         "model": "Chronomaster",
         "price": 2600,
-        "image": "/images/watches/zenith.png"
+        "image": "/PrestigeWorldwide/images/watches/zenith.png"
     },
     {
         "brand": "Cartier",
         "model": "Tank",
         "price": 1990,
-        "image": "/images/watches/cartier.png"
+        "image": "/PrestigeWorldwide/images/watches/cartier.png"
     },
     {
         "brand": "G-Shock",
         "model": "5600",
         "price": 210,
-        "image": "/images/watches/g-shock.png"
+        "image": "/PrestigeWorldwide/images/watches/g-shock.png"
     },
     {
         "brand": "Breitling",
         "model": "Navitimer",
         "price": 2100,
-        "image": "/images/watches/breitling.png"
+        "image": "/PrestigeWorldwide/images/watches/breitling.png"
     },
     {
         "brand": "Audemars Piguet",
         "model": "Royal Oak",
         "price": 3990,
-        "image": "/images/watches/ap.png"
+        "image": "/PrestigeWorldwide/images/watches/ap.png"
     }
 ]
